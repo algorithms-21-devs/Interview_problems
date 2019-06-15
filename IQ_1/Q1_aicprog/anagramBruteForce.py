@@ -9,9 +9,13 @@ Test Cases:
 # Running time is O(n log n) + O(n) = O(n log n)
 
 def isAnagram(str1, str2):
+    #check for null values 
+    if (str1 is None) or (str2 is None):
+        return "One or more missing strings"
+
     #check length
-    str1 = str1.replace(" ", "")
-    str2 = str2.replace(" ", "")
+    str1 = str1.replace(" ", "").lower()
+    str2 = str2.replace(" ", "").lower()
 
     if len(str1) != len(str2):
         return False
@@ -30,6 +34,6 @@ def test(str1, str2):
     return True
 
 
-print(isAnagram("public relations", "crap built on lies"))
+print(isAnagram("public relations", None))
 print(isAnagram("clint eastwood", "old west action"))
 print(isAnagram("ce", "old west action"))
