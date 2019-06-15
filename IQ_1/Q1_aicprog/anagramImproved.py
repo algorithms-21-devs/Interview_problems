@@ -6,7 +6,8 @@ Test Cases:
 "public relations" is an anagram of "crap built on lies."
 "clint eastwood" is an anagram of "old west action"
 """
-# Running time is O(n log n) + O(n) = O(n log n)
+
+# Running time is O(n) + O(n) = O(n)
 
 def isAnagram(str1, str2):
     #check length
@@ -16,20 +17,24 @@ def isAnagram(str1, str2):
     if len(str1) != len(str2):
         return False
     else:
-        # python sort is akin to mergesort, which means that its run time on average is O(n log n)
-
         string1, string2 = list(str1), list(str2)
-        string1, string2 = sorted(string1, reverse=True), sorted(string2, reverse=True)
-        return test(string1, string2)
 
-        # o(n)
-def test(str1, str2):
-    for a, b in zip(str1, str2):
-        if a != b:
-            return False
-    return True
+        dict = {}
+
+        for x in string1:
+            dict[x] = 0
+
+
+        for x in string2:
+            if x not in dict:
+                return False
+
+        return True
+
+
+        #return all(dic.keys())
 
 
 print(isAnagram("public relations", "crap built on lies"))
 print(isAnagram("clint eastwood", "old west action"))
-print(isAnagram("ce", "old west action"))
+print(isAnagram("cekjdfjlsdfdd", "old west action"))
