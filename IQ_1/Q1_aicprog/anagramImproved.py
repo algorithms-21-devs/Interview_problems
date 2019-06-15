@@ -24,22 +24,30 @@ def isAnagram(str1, str2):
         string1, string2 = list(str1), list(str2)
 
         dict = {}
-
+#        print(string1==string2, 'Yes')
         for x in string1:
-            dict[x] = 0
-
+            if x in dict:
+                dict[x] += 1
+            else:
+                dict[x] = 1
 
         for x in string2:
             if x in dict:
-                dict[x] += 1
+                dict[x] -= 1
+            #else:
+                #return False
 
-
-        return all(dict.values())
+        for x in dict.values():
+            if x!=0:
+                return False
+        return True
 
 
 
 print(isAnagram("public relatiOns$", "$crap built on lies"))
 print(isAnagram("clint eastwood", "old west action"))
 print(isAnagram("start here", "t00 action"))
-print(isAnagram("clint eastwood", "old west actioo"))
+print(isAnagram("clint eastwood wood", "old west action cxod"))
 print(isAnagram("public relations", None))
+print(isAnagram("start here rrrr", "start here eeee"))
+print(isAnagram("start here tx", "start here yy"))
