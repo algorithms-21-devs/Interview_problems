@@ -11,8 +11,8 @@ This repository is dedicated to preparing aspiring programmers for a 'technical 
 4. Put the folder you created inside the Question folder you are responding to.
 5. I.E Q1 > Q1_Algorithms-21 > Q1C_bruteforceapproach.py is an acceptable if your solution responds to Question 1.
 
-
-File Naming Convention | Rules
+####  File Naming Convention
+<br> | Rules & Descriptions
 ------------ | -------------
 Name | You must save your solution as Q#ConditionLetter_yourchoiceofwords
 Q# | is the Interview Question you are answering (i.e Q1 for question 1)
@@ -20,8 +20,8 @@ ConditionLetter | The contraints of your algorithm. Find this in the text file c
 Example |Q1C_bruteforce.py indicates the solution is solving Question 1, condition C, through a bruteforce method and is a python file. 
 
 
-
-Folder Naming Convention | Rules
+####  Folder Naming Convention
+<br> | Rules & Descriptions
 ------------ | -------------
 Name | You must create a folder named Q#_yourgithubusername
 Q# | is the Interview Question you are answering (i.e Q1 for question 1)
