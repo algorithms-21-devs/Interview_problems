@@ -3,6 +3,12 @@ This repository is dedicated to preparing aspiring programmers for a 'technical 
 
 
 ## Rules for submiting solutions
+1. Folder and File Requirements
+* You must create a folder named Q#_yourgithubname , where # is the interview question number you are answering. For example Q3_algorithms-21
+* The file 
+* Naming Conventions
+* You must name your
+* Pull Requests
 
 
 ## Resources
