@@ -9,7 +9,7 @@ This repository is dedicated to preparing aspiring programmers for a 'technical 
 2. Create a folder according to the Folder Name Convention below.
 3. Put all your files, inside the folder you created.
 4. Put the folder you created inside the Question folder you are responding to.
-5. I.E Q1 > Q1_Algorithms-21 > Q1C_bruteforceapproach.py is an acceptable if your solution responds to Question 1.
+5. I.E Q1 > Q1_Algorithms-21 > Q1C_bruteforceapproach.py is an acceptable contribution if your solution responds to Question 1.
 
 <br>
 
