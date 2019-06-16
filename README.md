@@ -6,6 +6,9 @@ This repository is dedicated to preparing aspiring programmers for a 'technical 
 
 
 ## Resources
+* ### Data Structures
+* ### Algorithms
+* ### Git Hub Basics
 
 
 ## Suggestions 
