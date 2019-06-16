@@ -9,6 +9,10 @@
 
 
 def anagram_check(str1, str2):#Time complexity O(n)
+
+    if str1 is None or str2 is None:
+        return False
+
     str1 = str1.replace(" ", "")
     str2 = str2.replace(" ", "") #remove empty spaces
 
@@ -19,10 +23,10 @@ def anagram_check(str1, str2):#Time complexity O(n)
 
 
     for x in str1:#Time complexity O(n), lenght of string1
-         str1_alpha_tracker[97 - ord(x)] #97 is a, subtract ascii value to find what position in the array to incremement
+         str1_alpha_tracker[97 - ord(x)]+=1 #97 is a, subtract ascii value to find what position in the array to incremement
 
     for x in str2:#Time complexity O(n), lenght of string2
-         str2_alpha_tracker[97 - ord(x)]
+         str2_alpha_tracker[97 - ord(x)]+=1
 
     for x in range(26):
         if str2_alpha_tracker[x] != str1_alpha_tracker[x]:#compare number of a's, b's ... z's of each string.
@@ -33,4 +37,8 @@ def anagram_check(str1, str2):#Time complexity O(n)
 
 print(anagram_check("public relations", "crap built on lies"))
 print(anagram_check("clint eastwood", "old west action"))
-print(anagram_check("ce", "old west action"))
+print(anagram_check("hello", None))
+print(anagram_check(" hello "," hello there"))
+print(anagram_check("start ", " starx"))
+print(anagram_check("start", "start"))
+print(anagram_check("jo", " job "))
