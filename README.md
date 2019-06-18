@@ -19,7 +19,7 @@ This repository is dedicated to preparing aspiring programmers for a 'technical 
 ------------ | -------------
 Rule | You must save your solution as Q#ConditionMode_yourchoiceofwords
 Q# | is the Interview Question you are answering (i.e Q1 for question 1)
-ConditionLetter | The difficulty of contraints of your algorithm. (i.e Easy, Medium). Find this in the text file containing the interview question.
+ConditionMode | The difficulty of the contraints of your algorithm operates in. (i.e Easy, Medium). Find this in the text file containing the interview question.
 Example |Q3EASY_bruteforce.py indicates the solution is solving Question 3, conditions are EASY, through a bruteforce method and is a python file. 
 
 <br>
