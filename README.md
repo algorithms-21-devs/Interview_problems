@@ -41,7 +41,7 @@ Example |Q3_algorithms-21 is an acceptable folder name if I you are answering Qu
 * ### Data Structures
 * ### Algorithms
 * ### Git Hub Basics
-##### Basic Instructions
+#### Basic Instructions
 **1. Create/Log In to your GitHub and go to the desired GitHub group open source account** 
 
 **2. Fork**
