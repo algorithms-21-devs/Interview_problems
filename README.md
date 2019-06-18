@@ -43,6 +43,7 @@ Example |Q3_algorithms-21 is an acceptable folder name if I you are answering Qu
 * ### Git Hub Basics
 #### Basic Instructions
 **1. Create/Log In to your GitHub and go to the desired GitHub group open source account** 
+* In our case, the desired GitHub group is https://github.com/algorithms-21/Interview_problems.git
 
 **2. Fork**
 * Click on the "Fork" button on https://github.com/algorithms-21/Interview_problems.git
