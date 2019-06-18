@@ -5,20 +5,21 @@ This repository is dedicated to preparing aspiring programmers for a 'technical 
 ## A. Rules for submiting solutions
 
 ### Steps
-1. Name Your solution according to the File Name Convention listed below.
-2. Create a folder according to the Folder Name Convention below.
-3. Put all your files, inside the folder you created.
-4. Put the folder you created inside the Question folder you are responding to.
-5. I.E Q1 > Q1_Algorithms-21 > Q1Medium_bruteforceapproach.py is an acceptable contribution if you are responding to Question 1.
+1. Name Your solution according to the File Name Convention listed below (i.e. Q1Medium_bruteforceapproach.py) .
+2. Create a folder according to the Folder Name Convention below (i.e. Q1_Algorithms-21 ) .
+3. Put all your files, inside the folder you created (i.e. Q1_Algorithms-21 > Q1Medium_bruteforceapproach.py) .
+4. Find Your Question Folder (the folder that asks the question you are responding to. (i.e Q1))
+4. Put the folder you created inside the Question folder
+5. I.E Q1 > Q1_Algorithms-21 > Q1Medium_bruteforceapproach.py is an acceptable folder and file structure if you are responding to Question 1, your solution is named Q1Medium_bruteforceapproach.py, the folder you created is named Q1_Algorithms-21,and your question folder is Q1 .
 
 <br>
 
 ###  File Naming Convention
 <br> | Rules & Descriptions
 ------------ | -------------
-Rule | You must save your solution as Q#ConditionLetter_yourchoiceofwords
+Rule | You must save your solution as Q#ConditionMode_yourchoiceofwords
 Q# | is the Interview Question you are answering (i.e Q1 for question 1)
-ConditionLetter | The contraints of your algorithm. (i.e Easy, Medium). Find this in the text file containing the interview question.
+ConditionLetter | The difficulty of contraints of your algorithm. (i.e Easy, Medium). Find this in the text file containing the interview question.
 Example |Q3EASY_bruteforce.py indicates the solution is solving Question 3, conditions are EASY, through a bruteforce method and is a python file. 
 
 <br>
