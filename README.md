@@ -75,19 +75,19 @@ Example |Q3_algorithms-21 is an acceptable folder name if I you are answering Qu
 *Now that you have synchronized your local respository with the online reposity, you can add and commit your files* 
 * git status 
   * This will show you new or modified files that you have not committed 
-* git add .
+* git add -A
   * This will add all new files. If you want to add a specific file then **git add [file]** 
 * git commit -m "your comment here"
   * This will commit you files with a message describing your changes 
 
 **7. Push**
 
-* git push 
+* git push origin master
   * This will push your files unto your online repository
 
 **8. Pull Request & Revision** 
 
-*Even though you have pushed your files to your online repository, only your forked reposity has changed. To make changes to the main repository (algorithms-21/Interview_problems), you need to create a pull request to synchronize your version with the original project*
+*Even though you have pushed your files to your online repository(the copy you made), only your forked reposity has changed. To make changes to the main repository (algorithms-21/Interview_problems), you need to create a pull request to synchronize your version with the original project*
   * Go to your repository and find your personal forked version of the project 
   * At the top, click on "pull request" tab and click on "New pull request" button 
   * After creating the pull request, your algorithm submission will be reviewed. If changes need to be made, you will receive an email. If not, the pull request will be accepted and merged to the main project. 
