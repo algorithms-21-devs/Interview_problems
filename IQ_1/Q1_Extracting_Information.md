@@ -14,3 +14,6 @@
        * I'd like you to consider each scenario.
        * 1st Scenario: lower case only (i.e. "hello", 'there') are valid
        *  2nd Scenario: Mixed case, i.e. "HoW IS it GOIng", "how is it going", "HOW IS IT GOING are all possible" are all valid
+
+  6. #### Do I have worry about input validation ? For example, do I need to test they data type of the strings to confirm they are infact strings or should I take that for granted.
+    * You can assume that all inputs are going to be strings or Null Values
