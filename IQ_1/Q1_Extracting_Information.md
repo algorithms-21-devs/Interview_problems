@@ -1,10 +1,10 @@
 
 # Potential Questions to ask your interviewer:
 
-  1. #### Should I consider two strings anagrams if they are identical but the cases are different ? <br> Consider 'car' & 'Car' or "The eyes" & they SEE".
+  1. #### Should I consider two strings anagrams if they are identical but the cases are different ? <br> I.E 'car' & 'Car' or "The eyes" & they SEE".
        * Do not consider those string combinations to be anagrams
-  2. #### Should I expect 'white spaces' (" ") only or others such as 'tab spaces' (" \t"), 'new line spaces' (" \n")?
-      * For now only consider white spaces, but there can be many even consecutively.
+  2. #### Should I expect 'white spaces' (" ") only or others such as 'tab spaces' (" \t"), and 'new line spaces' (" \n")?
+      * For now only consider white spaces, but there can many consecutive white spaces.
 
   3. #### Am I dealing with reasonably size strings or extremely large string input?
       * The size is reasonable say 100 characters or less for each input.
