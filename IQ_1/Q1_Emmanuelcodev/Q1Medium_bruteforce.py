@@ -34,10 +34,17 @@ def anagram_check2(str1, str2):
         else:
             str2_dic[x]=1
 
+
+    '''
+        The run time is O(n). It comes from iterating the original list.
+        This line ---> if x not in str2_dic or str1_dic[x]!=str2_dic[x]:#
+        Iterates through a dictionary so its only O(1) so the entire process
+        still only takes O(n).
+    '''
     #check to make sure letter occured in both dictionaries
     #then check if occurance same amount of times
     for x in str1_dic:#O(n) b/c traversing
-        if x not in str2 or str1_dic[x]!=str2_dic[x]:#
+        if x not in str2_dic or str1_dic[x]!=str2_dic[x]:#
             return False
     return True #meaning all letters oc
 
