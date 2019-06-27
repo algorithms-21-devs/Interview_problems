@@ -1,10 +1,27 @@
 
 def unique_pairs(int_list, target_sum):
     #check for None
+
+    '''
+        Time complexity: O(n^2).
+        1) This is because I have a nested for loop. I search through int_list,
+        and for each element in int_list I search through int_list again.
+        N for the outer and n^2 with the inner.
+
+        2) The second part of my algorithm which iteraters through the pairs and checks a dictionary is done in O(n) time.
+        for x in pairs:
+            if x in upairs
+        I am checking n items (b/c of pairs), at O(1) time due to upairs being
+        a dictionary. Overall, highest cost is O(n^2)
+
+        Space complexity: O(n)
+        1) I create another array and dictionary in the worst case n size.
+
+    '''
     if None in (int_list, target_sum):
         raise Exception("int_list and target_sum cannot be of NoneType")
 
-    if len(int_list) < 1:
+    if len(int_list) < 2:
         return []
 
     pairs = []
