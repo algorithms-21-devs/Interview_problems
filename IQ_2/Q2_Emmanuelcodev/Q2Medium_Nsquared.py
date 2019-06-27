@@ -1,4 +1,3 @@
-print('hello')
 
 def unique_pairs(int_list, target_sum):
     #check for None
@@ -43,7 +42,7 @@ def unique_pairs(int_list, target_sum):
     for x in upairs.keys():
         pairs.append(x)
     return pairs
-print('hello')
+
 
             #duplicate pairs
 
