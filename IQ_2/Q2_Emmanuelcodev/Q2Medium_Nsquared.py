@@ -17,7 +17,8 @@ def unique_pairs(int_list, target_sum):
                 if duplicate == False:
                     duplicate = True
                 else:
-                    pairs.append((x,y))
+                    if x + y == target_sum:
+                        pairs.append((x,y))
 
             else:
                 if x + y == target_sum:#if current num (x) and y together == target_sum, then append group
@@ -48,7 +49,8 @@ def unique_pairs(int_list, target_sum):
 
 
 
-print(unique_pairs([1, 3, 2, 2], 4))  # Returns [(3,1),(2,2)]
+print(unique_pairs([1, 3, 2, 2,3,5,5], 4))  # Returns [(3,1),(2,2)]
+print(unique_pairs([3, 4, 19, 3, 4, 8, 5, 5], 6))#returns 1,1
 print(unique_pairs([-1, 6, -3, 5, 3, 1], 2))  # Returns [(-1,3),(5,-3)]
 print(unique_pairs([3, 4, 19, 3, 3, 3, 3], 6))  # Returns [(3,3)]
 print(unique_pairs([-1, 6, -3, 5, 3, 1], 5000))  # Returns []
