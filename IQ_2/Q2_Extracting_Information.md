@@ -11,4 +11,4 @@
        * Return Null, None, Empty Array (depending on what the language of your choice will allow you)
 
   5. #### Do I have worry about input validation ? For example, do I need to test the data type of each <br> strings to confirm they are infact strings or should I take that for granted.
-    * No. Assume the list is Null/None/, Empty, or contains integers
+    * You do not need to check for dataType validation but assume the list can be Null, None, Empty. 
