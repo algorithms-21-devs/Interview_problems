@@ -1,8 +1,11 @@
 # Time Complexity: O(n)
 def findPairsOfSum(nums, sum):
 
-    if len(nums) == 0:
-        raise Exception('You entered an empy list')
+    if nums is None:
+        raise Exception('Invalid input for list.')
+
+    if len(nums) < 2:
+        raise Exception('Not enough values for list.')
 
     complements = {}
     pairs = []
@@ -45,3 +48,4 @@ print(findPairsOfSum([-1, 6, -3, 5, 3, 1], 2))  # Returns [(-1,3),(5,-3)]
 print(findPairsOfSum([3, 4, 19, 3, 3, 3, 3], 6))  # Returns [(3,3)]
 print(findPairsOfSum([-1, 6, -3, 5, 3, 1], 5000))  # Returns []
 print(findPairsOfSum([], 10))  # Returns Exception
+print(findPairsOfSum(None, 10)) # Returns Exception
