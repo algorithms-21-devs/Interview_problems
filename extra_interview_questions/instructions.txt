@@ -1,0 +1,7 @@
+Instructions
+
+1. The questions in this folder are extra interview questions for those who want to practice interview questions at a faster
+   pace.
+2. They are organized by topic i.e. arrays, Linked Lists, trees etc..
+3. Solve the problem, test you code and make a pull request.
+4. We will review it and pull it if everything is in order.
