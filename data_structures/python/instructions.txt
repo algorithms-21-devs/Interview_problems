@@ -1,0 +1,13 @@
+The following data structures need to be uploaded
+
+
+1.Single Linked List (In progress - needs an update: 1 method missing)
+2.Double Linked List (In progress - needs an update: 1 method missing)
+3.Binary Search traverse
+4.Stacks
+5.Queues
+
+All code must be tested, being asking for a pull request. Raise Exceptions when appropriate.
+Data Structures will be added and removed depending on the questions posted. If you upload
+code from another site, please test it and give credit where it is due. If a datastructure
+is listed above it is still incomplete.
