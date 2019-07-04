@@ -14,7 +14,7 @@ def isLinkedPalindrome(linked_list):
     # linked_list length is greater than 1
     current = linked_list.headval
     stack = []
-    half = linked_list.get_size() / 2
+    half = linked_list.get_size() // 2
     listIsOdd = half % 2 != 0
 
     # If linked_list's size is 5, "half" should be 2
