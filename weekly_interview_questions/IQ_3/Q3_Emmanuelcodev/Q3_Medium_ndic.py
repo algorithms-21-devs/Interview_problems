@@ -87,7 +87,7 @@ def is_palindrome(s_linked_list):
 
     left_letter_positions = {}
     counter = 0
-    #go through half of the linked list and track element and position of element
+    #go through left half of the linked list and track element and position of element
     while counter!= half_size:
         if current_node.data in left_letter_positions:
             left_letter_positions[current_node.data.upper()].append(left_half_position)
@@ -99,13 +99,15 @@ def is_palindrome(s_linked_list):
         counter+=1
         current_node = current_node.next
     #print(left_letter_positions)
-    #if odd skip middle node
+
+    #if odd element list skip middle node
     if odd:
         current_node = current_node.next
     counter = 0#counter reset at 0, since now going to travers left to right instead of right to left
 
     right_letter_positions = {}
 
+    #now read right half of the list, read from middle position from left to right
     while current_node is not None:
         if current_node.data in right_letter_positions:
             right_letter_positions[current_node.data.upper()].append(counter)
@@ -114,7 +116,7 @@ def is_palindrome(s_linked_list):
         current_node = current_node.next
         counter+=1
 
-
+    #compares dictionaries of each half
     for x in left_letter_positions.keys():
         if x in right_letter_positions:
             if left_letter_positions[x]==right_letter_positions[x]:#if letter occurs but at different positions
