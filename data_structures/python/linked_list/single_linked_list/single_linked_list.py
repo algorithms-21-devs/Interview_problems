@@ -34,7 +34,7 @@ class SingleLinkedList(object):
             self.tail = self.tail.next
             self.size+=1
 
-    def delete_start(self):#Time complexity O(n)
+    def delete_start(self):#Time complexity O(1)
         if self.size == 0:
             raise Exception('Cannot delete any elements due to size of list being 0')
         if self.size == 1:
