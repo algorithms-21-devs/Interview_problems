@@ -23,14 +23,12 @@ def cycle(head_node):
         current_node = current_node.next#make sure we iterate through the list
     return False
 
-
 #Testing
 node_a = n.Node('A')
 node_b = n.Node('B')
 node_c = n.Node('C')
 node_d = n.Node('D')
 
-#'A'->'B'-->'C'->'D'->'B' (cycle)
 l1 = node_a
 l1.next = node_b
 l1.next.next = node_c
@@ -39,6 +37,10 @@ l1.next.next.next.next = node_b #cycle
 print(cycle(l1))
 
 
+node_a = n.Node('A')
+node_b = n.Node('B')
+node_c = n.Node('C')
+node_d = n.Node('D')
 
 #'A'->'B'-->'C'->'D'->'B' (different node with data b)
 l2 = node_a
@@ -48,10 +50,19 @@ l2.next.next.next = node_d
 l2.next.next.next.next = n.Node('B') #cycle
 print(cycle(l2))
 
+node_a = n.Node('A')
+node_b = n.Node('B')
+node_c = n.Node('C')
+node_d = n.Node('D')
+
 #your_function('A') returns False
 l3 = node_a
 print(cycle(l3))
 
+node_a = n.Node('A')
+node_b = n.Node('B')
+node_c = n.Node('C')
+node_d = n.Node('D')
 
 #your_function('A'->'B'-->'C') returns False
 l4 = node_a
