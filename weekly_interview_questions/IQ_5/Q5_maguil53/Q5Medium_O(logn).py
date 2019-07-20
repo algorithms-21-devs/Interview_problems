@@ -1,4 +1,4 @@
-# Time Complexity: O(logn)
+# Time Complexity: O(ln)
 def reverseIntArray(int_list):
     if int_list is None:
         raise Exception("Can't enter None")
