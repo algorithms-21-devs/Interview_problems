@@ -14,3 +14,6 @@
 
   5. #### Is the array sorted?
       * No, it is not
+      
+  6. #### Are we allowed to modify the array?
+      * Yes
